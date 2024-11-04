@@ -37,6 +37,20 @@
 			);
 			target = 5EABD7E62CD8B4DD0080B8D1 /* Swiggy-UIKit */;
 		};
+		5EABD8782CD8C6750080B8D1 /* Exceptions for "Swiggy-UIKit" folder in "Swiggy-UIKitTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Controllers/FoodVC.swift,
+			);
+			target = 5EABD7FC2CD8B4DF0080B8D1 /* Swiggy-UIKitTests */;
+		};
+		5EABD8792CD8C6750080B8D1 /* Exceptions for "Swiggy-UIKit" folder in "Swiggy-UIKitUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Controllers/FoodVC.swift,
+			);
+			target = 5EABD8062CD8B4DF0080B8D1 /* Swiggy-UIKitUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +58,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				5EABD80F2CD8B4DF0080B8D1 /* Exceptions for "Swiggy-UIKit" folder in "Swiggy-UIKit" target */,
+				5EABD8782CD8C6750080B8D1 /* Exceptions for "Swiggy-UIKit" folder in "Swiggy-UIKitTests" target */,
+				5EABD8792CD8C6750080B8D1 /* Exceptions for "Swiggy-UIKit" folder in "Swiggy-UIKitUITests" target */,
 			);
 			path = "Swiggy-UIKit";
 			sourceTree = "<group>";

@@ -8,37 +8,37 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
-        <scene sceneID="rRz-Lg-dWf">
-            <objects>
-                <viewController id="fOh-ua-16G" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wzW-Pk-QVF">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="8cV-tj-xRL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Nku-iT-di3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EEZ-wq-0ix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-717" y="-7"/>
-        </scene>
-        <!--Item 1-->
+        <!--Swiggy-->
         <scene sceneID="HU8-8J-Tca">
             <objects>
-                <viewController id="G9h-IM-9v7" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SwiggyHomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="G9h-IM-9v7" customClass="SwiggyHomeVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j04-MZ-fWH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="nsI-Vk-gWf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="8hW-YQ-msj"/>
+                    <tabBarItem key="tabBarItem" title="Swiggy" id="8hW-YQ-msj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dn0-xr-1dH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-718" y="-614"/>
+        </scene>
+        <!--Food-->
+        <scene sceneID="rRz-Lg-dWf">
+            <objects>
+                <viewController storyboardIdentifier="FoodVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fOh-ua-16G" customClass="FoodVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wzW-Pk-QVF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8cV-tj-xRL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Food" id="Nku-iT-di3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EEZ-wq-0ix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-718" y="48"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="OHY-hf-XCZ">
@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="-1623" y="-311"/>
         </scene>
-        <!--View Controller-->
+        <!--Swiggy HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SwiggyHomeVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,7 +132,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ydi-d2-58R"/>
+        <segue reference="lpP-oL-1db"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
