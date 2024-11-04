@@ -31,7 +31,7 @@
             <objects>
                 <viewController storyboardIdentifier="SwiggyHomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="G9h-IM-9v7" customClass="SwiggyHomeVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j04-MZ-fWH">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="nsI-Vk-gWf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -47,7 +47,7 @@
             <objects>
                 <viewController storyboardIdentifier="FoodVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fOh-ua-16G" customClass="FoodVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wzW-Pk-QVF">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="8cV-tj-xRL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -68,72 +68,57 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <segue destination="Lqp-sg-u5A" kind="presentation" id="lpP-oL-1db"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-30" y="-614"/>
         </scene>
-        <!--View Controller-->
+        <!--DineoutVC-->
         <scene sceneID="0v5-da-rrH">
             <objects>
-                <viewController id="6Tf-7D-htL" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DineoutVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Tf-7D-htL" customClass="DineoutVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DSe-tg-fWv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Pdi-nF-1Mc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <segue destination="Lqp-sg-u5A" kind="presentation" id="6HW-tZ-Cux"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eme-bt-OMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-31" y="34"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Afl-Gg-nrH">
-            <objects>
-                <viewController id="3mn-cR-wKX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YE8-Kw-qhP">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="2Gq-jV-wyz"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <connections>
-                        <segue destination="Lqp-sg-u5A" kind="presentation" id="Ydi-d2-58R"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkc-ST-FCP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="656" y="34"/>
-        </scene>
-        <!--View Controller-->
+        <!--ReorderVC-->
         <scene sceneID="aCE-za-krf">
             <objects>
-                <viewController id="a1f-uJ-Elu" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReorderVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="a1f-uJ-Elu" customClass="ReorderVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="na9-ir-yNZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="qlV-Qa-RPB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <segue destination="Lqp-sg-u5A" kind="presentation" id="c2g-ok-sxK"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="STA-mI-SLP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="616" y="-614"/>
         </scene>
+        <!--Wine StoresVC-->
+        <scene sceneID="Afl-Gg-nrH">
+            <objects>
+                <viewController storyboardIdentifier="WineStoresVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3mn-cR-wKX" customClass="WineStoresVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YE8-Kw-qhP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2Gq-jV-wyz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkc-ST-FCP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="656" y="34"/>
+        </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="lpP-oL-1db"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
