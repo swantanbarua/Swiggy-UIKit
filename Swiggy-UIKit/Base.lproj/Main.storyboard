@@ -8,6 +8,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="OHY-hf-XCZ">
+            <objects>
+                <tabBarController id="Lqp-sg-u5A" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mtT-zu-dJu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="G9h-IM-9v7" kind="relationship" relationship="viewControllers" id="lpm-3o-OEt"/>
+                        <segue destination="fOh-ua-16G" kind="relationship" relationship="viewControllers" id="0aZ-KU-sgm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rtq-HU-mRr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1623" y="-311"/>
+        </scene>
         <!--Swiggy-->
         <scene sceneID="HU8-8J-Tca">
             <objects>
@@ -40,28 +58,10 @@
             </objects>
             <point key="canvasLocation" x="-718" y="48"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="OHY-hf-XCZ">
-            <objects>
-                <tabBarController id="Lqp-sg-u5A" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mtT-zu-dJu">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="G9h-IM-9v7" kind="relationship" relationship="viewControllers" id="lpm-3o-OEt"/>
-                        <segue destination="fOh-ua-16G" kind="relationship" relationship="viewControllers" id="0aZ-KU-sgm"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rtq-HU-mRr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1623" y="-311"/>
-        </scene>
-        <!--Swiggy HomeVC-->
+        <!--InstamartVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SwiggyHomeVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InstamartVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="InstamartVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -40,14 +40,22 @@
 		5EABD8782CD8C6750080B8D1 /* Exceptions for "Swiggy-UIKit" folder in "Swiggy-UIKitTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Controllers/DineoutVC.swift,
 				Controllers/FoodVC.swift,
+				Controllers/InstamartVC.swift,
+				Controllers/ReorderVC.swift,
+				Controllers/WineStoresVC.swift,
 			);
 			target = 5EABD7FC2CD8B4DF0080B8D1 /* Swiggy-UIKitTests */;
 		};
 		5EABD8792CD8C6750080B8D1 /* Exceptions for "Swiggy-UIKit" folder in "Swiggy-UIKitUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Controllers/DineoutVC.swift,
 				Controllers/FoodVC.swift,
+				Controllers/InstamartVC.swift,
+				Controllers/ReorderVC.swift,
+				Controllers/WineStoresVC.swift,
 			);
 			target = 5EABD8062CD8B4DF0080B8D1 /* Swiggy-UIKitUITests */;
 		};
