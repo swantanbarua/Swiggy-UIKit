@@ -20,6 +20,10 @@
                     <connections>
                         <segue destination="G9h-IM-9v7" kind="relationship" relationship="viewControllers" id="lpm-3o-OEt"/>
                         <segue destination="fOh-ua-16G" kind="relationship" relationship="viewControllers" id="0aZ-KU-sgm"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="eZy-JK-FUF"/>
+                        <segue destination="6Tf-7D-htL" kind="relationship" relationship="viewControllers" id="LPn-ja-81Z"/>
+                        <segue destination="a1f-uJ-Elu" kind="relationship" relationship="viewControllers" id="o60-Bp-JaQ"/>
+                        <segue destination="3mn-cR-wKX" kind="relationship" relationship="viewControllers" id="dHJ-iH-ERx"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rtq-HU-mRr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -58,7 +62,7 @@
             </objects>
             <point key="canvasLocation" x="-718" y="48"/>
         </scene>
-        <!--InstamartVC-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="InstamartVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="InstamartVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
@@ -68,12 +72,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="VPn-3Z-CzH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-30" y="-614"/>
         </scene>
-        <!--DineoutVC-->
+        <!--Item-->
         <scene sceneID="0v5-da-rrH">
             <objects>
                 <viewController storyboardIdentifier="DineoutVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Tf-7D-htL" customClass="DineoutVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
@@ -83,12 +88,13 @@
                         <viewLayoutGuide key="safeArea" id="Pdi-nF-1Mc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="c63-lY-OaK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eme-bt-OMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-31" y="34"/>
         </scene>
-        <!--ReorderVC-->
+        <!--Item-->
         <scene sceneID="aCE-za-krf">
             <objects>
                 <viewController storyboardIdentifier="ReorderVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="a1f-uJ-Elu" customClass="ReorderVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
@@ -98,12 +104,13 @@
                         <viewLayoutGuide key="safeArea" id="qlV-Qa-RPB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="DYe-15-7ik"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="STA-mI-SLP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="616" y="-614"/>
         </scene>
-        <!--Wine StoresVC-->
+        <!--Item-->
         <scene sceneID="Afl-Gg-nrH">
             <objects>
                 <viewController storyboardIdentifier="WineStoresVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3mn-cR-wKX" customClass="WineStoresVC" customModule="Swiggy_UIKit" customModuleProvider="target" sceneMemberID="viewController">
@@ -113,6 +120,7 @@
                         <viewLayoutGuide key="safeArea" id="2Gq-jV-wyz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="AH0-5G-La1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkc-ST-FCP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
