@@ -130,7 +130,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YPg-Zk-o5U">
                                                 <rect key="frame" x="224.66666666666666" y="0.0" width="55.999999999999972" height="60"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="credit-card" translatesAutoresizingMaskIntoConstraints="NO" id="pwf-8s-UTh">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="food-card" translatesAutoresizingMaskIntoConstraints="NO" id="pwf-8s-UTh">
                                                         <rect key="frame" x="0.0" y="0.0" width="56" height="43.666666666666664"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4Q-xD-sU3">
@@ -326,8 +326,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="credit-card" width="512" height="512"/>
         <image name="dining-table" width="512" height="512"/>
+        <image name="food-card" width="512" height="512"/>
         <image name="rice-bowl" width="384" height="384"/>
         <image name="swiggy" width="93" height="93"/>
         <namedColor name="background">
