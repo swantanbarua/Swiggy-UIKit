@@ -40,6 +40,7 @@
 		5EABD8782CD8C6750080B8D1 /* Exceptions for "Swiggy-UIKit" folder in "Swiggy-UIKitTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Controllers/CardVC.swift,
 				Controllers/DineoutVC.swift,
 				Controllers/FoodVC.swift,
 				Controllers/InstamartVC.swift,
@@ -51,6 +52,7 @@
 		5EABD8792CD8C6750080B8D1 /* Exceptions for "Swiggy-UIKit" folder in "Swiggy-UIKitUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Controllers/CardVC.swift,
 				Controllers/DineoutVC.swift,
 				Controllers/FoodVC.swift,
 				Controllers/InstamartVC.swift,
