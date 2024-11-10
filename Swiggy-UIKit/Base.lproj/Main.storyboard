@@ -103,7 +103,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cqa-Nn-C5A" userLabel="Instamart">
                                                 <rect key="frame" x="112.33333333333331" y="0.0" width="56" height="65"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P5o-XZ-9l6">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="instamart-icon" translatesAutoresizingMaskIntoConstraints="NO" id="P5o-XZ-9l6">
                                                         <rect key="frame" x="0.0" y="0.0" width="56" height="48.666666666666664"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instamart" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5S3-P4-Rqz">
@@ -372,6 +372,7 @@
         <image name="dining-table" width="512" height="512"/>
         <image name="duty-free" width="384" height="384"/>
         <image name="food-card" width="512" height="512"/>
+        <image name="instamart-icon" width="384" height="384"/>
         <image name="reorder" width="384" height="384"/>
         <image name="rice-bowl" width="384" height="384"/>
         <image name="swiggy" width="93" height="93"/>
