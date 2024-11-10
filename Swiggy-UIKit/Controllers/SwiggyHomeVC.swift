@@ -22,4 +22,8 @@ class SwiggyHomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    // MARK: - IBACTIONS
+    @IBAction func tabbarTapAction(_ sender: UIButton) {
+    }
 }
