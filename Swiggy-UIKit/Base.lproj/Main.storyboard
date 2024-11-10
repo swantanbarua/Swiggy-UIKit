@@ -315,6 +315,15 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Swiggy" id="8hW-YQ-msj"/>
+                    <connections>
+                        <outlet property="cardIndicatorView" destination="TpG-G3-hi5" id="hEX-zE-ddQ"/>
+                        <outlet property="dineoutIndicatorView" destination="t3w-5h-5wB" id="j3x-ND-KeX"/>
+                        <outlet property="foodIndicatorView" destination="ZV3-1w-3t9" id="9aB-a8-3ZJ"/>
+                        <outlet property="instamartIndicatorView" destination="NJh-Ev-Q28" id="ezl-WV-ynO"/>
+                        <outlet property="reorderIndicatorView" destination="luL-4q-Km8" id="j9a-rb-rC8"/>
+                        <outlet property="swiggyIndicatorView" destination="3qA-rl-KwW" id="piJ-Vk-6B3"/>
+                        <outlet property="wineStoresIndicatorView" destination="ss5-Mx-cw3" id="eRy-be-TBq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dn0-xr-1dH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
