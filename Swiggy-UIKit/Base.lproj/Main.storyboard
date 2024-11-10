@@ -221,7 +221,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CqN-o0-IBu" userLabel="Reorder">
                                                 <rect key="frame" x="337" y="0.0" width="56" height="65"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mv8-T2-j2e">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="reorder" translatesAutoresizingMaskIntoConstraints="NO" id="Mv8-T2-j2e">
                                                         <rect key="frame" x="0.0" y="0.0" width="56" height="47.333333333333336"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reorder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qol-AT-Zoo">
@@ -372,6 +372,7 @@
         <image name="dining-table" width="512" height="512"/>
         <image name="duty-free" width="384" height="384"/>
         <image name="food-card" width="512" height="512"/>
+        <image name="reorder" width="384" height="384"/>
         <image name="rice-bowl" width="384" height="384"/>
         <image name="swiggy" width="93" height="93"/>
         <namedColor name="background">
