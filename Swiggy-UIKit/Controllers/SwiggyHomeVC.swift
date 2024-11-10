@@ -23,6 +23,7 @@ class SwiggyHomeVC: UIViewController {
         super.viewDidLoad()
         
         resetIndicatorColors()
+        setIndicatorColor(tagValue: 1)
     }
     
     // MARK: - IBACTIONS
