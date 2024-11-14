@@ -27,48 +27,9 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aiM-3m-Kg8" userLabel="Tabbar View">
                                 <rect key="frame" x="0.0" y="752" width="393" height="65"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2jq-D3-Mag">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="65"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A2x-43-wPO" userLabel="Swiggy" customClass="CustomTabbarView" customModule="Swiggy_UIKit" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="56" height="65"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ule-qx-M2u" userLabel="Food" customClass="CustomTabbarView" customModule="Swiggy_UIKit" customModuleProvider="target">
-                                                <rect key="frame" x="56" y="0.0" width="56.333333333333343" height="65"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cqa-Nn-C5A" userLabel="Instamart" customClass="CustomTabbarView" customModule="Swiggy_UIKit" customModuleProvider="target">
-                                                <rect key="frame" x="112.33333333333331" y="0.0" width="56" height="65"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o2c-0k-0o3" userLabel="Dineout" customClass="CustomTabbarView" customModule="Swiggy_UIKit" customModuleProvider="target">
-                                                <rect key="frame" x="168.33333333333334" y="0.0" width="56.333333333333343" height="65"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YPg-Zk-o5U" userLabel="Card" customClass="CustomTabbarView" customModule="Swiggy_UIKit" customModuleProvider="target">
-                                                <rect key="frame" x="224.66666666666666" y="0.0" width="55.999999999999972" height="65"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8wb-RL-djo" userLabel="Wine Stores" customClass="CustomTabbarView" customModule="Swiggy_UIKit" customModuleProvider="target">
-                                                <rect key="frame" x="280.66666666666669" y="0.0" width="56.333333333333314" height="65"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CqN-o0-IBu" userLabel="Reorder" customClass="CustomTabbarView" customModule="Swiggy_UIKit" customModuleProvider="target">
-                                                <rect key="frame" x="337" y="0.0" width="56" height="65"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="2jq-D3-Mag" firstAttribute="top" secondItem="aiM-3m-Kg8" secondAttribute="top" id="3Lw-t0-f5c"/>
-                                    <constraint firstItem="2jq-D3-Mag" firstAttribute="leading" secondItem="aiM-3m-Kg8" secondAttribute="leading" id="9Bi-ku-Y1p"/>
-                                    <constraint firstAttribute="height" constant="65" id="A4f-Us-ejx"/>
-                                    <constraint firstAttribute="trailing" secondItem="2jq-D3-Mag" secondAttribute="trailing" id="hQ0-TZ-qgR"/>
-                                    <constraint firstAttribute="bottom" secondItem="2jq-D3-Mag" secondAttribute="bottom" id="i19-Pt-FiC"/>
+                                    <constraint firstAttribute="height" constant="65" id="kuj-fN-4oB"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XC9-vD-E4q" userLabel="Tabbar Separator View">
@@ -99,15 +60,6 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Swiggy" id="8hW-YQ-msj"/>
-                    <connections>
-                        <outlet property="cardTabbarItemView" destination="YPg-Zk-o5U" id="3Oz-Rb-1AZ"/>
-                        <outlet property="dineoutTabbarItemView" destination="o2c-0k-0o3" id="EG4-rh-ggk"/>
-                        <outlet property="foodTabbarItemView" destination="Ule-qx-M2u" id="iVd-Tw-25D"/>
-                        <outlet property="instamartTabbarItemView" destination="Cqa-Nn-C5A" id="1WY-c1-n5M"/>
-                        <outlet property="reorderTabbarItemView" destination="CqN-o0-IBu" id="EAQ-Oa-7Ie"/>
-                        <outlet property="swiggyTabbarItemView" destination="A2x-43-wPO" id="SMS-rb-QXQ"/>
-                        <outlet property="wineStoresTabbarItemView" destination="8wb-RL-djo" id="dzc-wn-BD2"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dn0-xr-1dH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
