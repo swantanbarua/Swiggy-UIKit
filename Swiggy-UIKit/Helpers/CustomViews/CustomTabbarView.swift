@@ -24,7 +24,7 @@ final class CustomTabbarView: UIView {
         configureView()
     }
     
-    // MARK: - FUNCTIONS
+    // MARK: - CONFIGURATION METHODS
     private func configureView() {
         guard let view = self.loadViewFromNIB(nibName: "CustomTabbarView") else {
             return
@@ -32,5 +32,9 @@ final class CustomTabbarView: UIView {
         
         view.frame = self.bounds
         self.addSubview(view)
+    }
+    
+    func configureView(title: String) {
+        self.tabbarLbl.text = title
     }
 }
