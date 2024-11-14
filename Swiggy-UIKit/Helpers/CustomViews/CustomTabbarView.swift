@@ -40,7 +40,6 @@ final class CustomTabbarView: UIView {
     }
     
     func configureView(title: String) {
-        configureView()
-        self.tabbarLbl?.text = title
+        self.tabbarLbl.text = title
     }
 }
