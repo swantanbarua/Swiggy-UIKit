@@ -46,6 +46,8 @@
 				Controllers/Instamart/InstamartVC.swift,
 				Controllers/Reorder/ReorderVC.swift,
 				Controllers/WineStores/WineStoresVC.swift,
+				CustomTabbarView.swift,
+				CustomTabbarView.xib,
 			);
 			target = 5EABD7FC2CD8B4DF0080B8D1 /* Swiggy-UIKitTests */;
 		};
@@ -58,6 +60,8 @@
 				Controllers/Instamart/InstamartVC.swift,
 				Controllers/Reorder/ReorderVC.swift,
 				Controllers/WineStores/WineStoresVC.swift,
+				CustomTabbarView.swift,
+				CustomTabbarView.xib,
 			);
 			target = 5EABD8062CD8B4DF0080B8D1 /* Swiggy-UIKitUITests */;
 		};
