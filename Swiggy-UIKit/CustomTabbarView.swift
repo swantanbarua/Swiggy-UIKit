@@ -9,6 +9,11 @@ import UIKit
 
 final class CustomTabbarView: UIView {
     
+    // MARK: - IBOUTLETS
+    @IBOutlet weak var tabbarLbl: UILabel!
+    @IBOutlet weak var tabbarImg: UIImageView!
+    
+    // MARK: - LIFECYCLE
     override init(frame: CGRect) {
         super.init(frame: frame)
         configureView()
@@ -19,6 +24,7 @@ final class CustomTabbarView: UIView {
         configureView()
     }
     
+    // MARK: - FUNCTIONS
     private func configureView() {
         guard let view = self.loadViewFromNIB(nibName: "CustomTabbarView") else {
             return

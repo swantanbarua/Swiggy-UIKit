@@ -36,6 +36,10 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iWr-Lf-TzU" secondAttribute="trailing" id="pWV-lW-N9c"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tabbarImg" destination="iWr-Lf-TzU" id="udi-WY-NAF"/>
+                <outlet property="tabbarLbl" destination="YxR-MS-JG6" id="24K-bd-h3a"/>
+            </connections>
             <point key="canvasLocation" x="-204.58015267175571" y="24.647887323943664"/>
         </view>
     </objects>
