@@ -22,7 +22,6 @@ final class CustomTabbarView: UIView {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        configureView()
     }
     
     // MARK: - IBACTIONS
@@ -41,6 +40,7 @@ final class CustomTabbarView: UIView {
     }
     
     func configureView(title: String) {
-        self.tabbarLbl.text = title
+        configureView()
+        self.tabbarLbl?.text = title
     }
 }
