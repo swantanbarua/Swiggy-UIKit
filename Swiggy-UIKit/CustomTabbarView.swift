@@ -11,9 +11,20 @@ final class CustomTabbarView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configureView()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
+        configureView()
+    }
+    
+    private func configureView() {
+        guard let view = self.loadViewFromNIB(nibName: "CustomTabbarView") else {
+            return
+        }
+        
+        view.frame = self.bounds
+        self.addSubview(view)
     }
 }
