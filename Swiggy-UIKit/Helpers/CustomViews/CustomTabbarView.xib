@@ -23,20 +23,32 @@
                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gz-kf-J24">
+                    <rect key="frame" x="0.0" y="0.0" width="192" height="40"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="tabbarTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="kZL-ld-Chy"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="8gz-kf-J24" secondAttribute="bottom" id="63X-BF-vaI"/>
+                <constraint firstItem="8gz-kf-J24" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8kQ-XU-fPB"/>
                 <constraint firstItem="YxR-MS-JG6" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="4" id="Fuc-Aq-qt7"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YxR-MS-JG6" secondAttribute="trailing" id="Lrk-q0-LZy"/>
                 <constraint firstItem="iWr-Lf-TzU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RTK-bp-5UP"/>
+                <constraint firstItem="8gz-kf-J24" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="SZ0-nO-I1x"/>
                 <constraint firstItem="iWr-Lf-TzU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Suj-9x-Gr3"/>
                 <constraint firstItem="YxR-MS-JG6" firstAttribute="top" secondItem="iWr-Lf-TzU" secondAttribute="bottom" constant="4" id="Z8O-QP-a1a"/>
                 <constraint firstItem="YxR-MS-JG6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Zin-8a-MWV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="8gz-kf-J24" secondAttribute="trailing" id="eRD-k7-OFS"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iWr-Lf-TzU" secondAttribute="trailing" id="pWV-lW-N9c"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="tabbarBtn" destination="8gz-kf-J24" id="Ano-ze-bkd"/>
                 <outlet property="tabbarImg" destination="iWr-Lf-TzU" id="udi-WY-NAF"/>
                 <outlet property="tabbarLbl" destination="YxR-MS-JG6" id="24K-bd-h3a"/>
             </connections>

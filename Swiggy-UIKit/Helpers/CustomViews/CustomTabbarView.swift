@@ -12,6 +12,7 @@ final class CustomTabbarView: UIView {
     // MARK: - IBOUTLETS
     @IBOutlet weak var tabbarLbl: UILabel!
     @IBOutlet weak var tabbarImg: UIImageView!
+    @IBOutlet weak var tabbarBtn: UIButton!
     
     // MARK: - LIFECYCLE
     override init(frame: CGRect) {
@@ -22,6 +23,11 @@ final class CustomTabbarView: UIView {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         configureView()
+    }
+    
+    // MARK: - IBACTIONS
+    @IBAction func tabbarTapped(_ sender: UIButton) {
+        
     }
     
     // MARK: - CONFIGURATION METHODS
