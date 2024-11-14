@@ -17,10 +17,12 @@ final class CustomTabbarItemView: UIView {
     // MARK: - LIFECYCLE METHODS
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configureView()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
+        configureView()
     }
     
     // MARK: - IBACTIONS
