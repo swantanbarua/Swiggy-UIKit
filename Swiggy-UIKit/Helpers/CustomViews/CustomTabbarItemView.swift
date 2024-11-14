@@ -13,4 +13,8 @@ final class CustomTabbarItemView: UIView {
     @IBOutlet weak var tabItemImg: UIImageView!
     @IBOutlet weak var tabItemLbl: UILabel!
     @IBOutlet weak var tabActivationBtn: UIButton!
+    
+    // MARK: - LIFECYCLE METHODS
+    
+    // MARK: - IBACTIONS
 }
