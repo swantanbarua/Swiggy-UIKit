@@ -10,61 +10,24 @@ import UIKit
 class SwiggyHomeVC: UIViewController {
 
     // MARK: - IBOUTLETS
-    @IBOutlet weak var swiggyIndicatorView: UIView!
-    @IBOutlet weak var foodIndicatorView: UIView!
-    @IBOutlet weak var instamartIndicatorView: UIView!
-    @IBOutlet weak var dineoutIndicatorView: UIView!
-    @IBOutlet weak var cardIndicatorView: UIView!
-    @IBOutlet weak var wineStoresIndicatorView: UIView!
-    @IBOutlet weak var reorderIndicatorView: UIView!
+    @IBOutlet weak var swiggyTabbarItemView: CustomTabbarView!
+    @IBOutlet weak var foodTabbarItemView: CustomTabbarView!
+    @IBOutlet weak var instamartTabbarItemView: CustomTabbarView!
+    @IBOutlet weak var dineoutTabbarItemView: CustomTabbarView!
+    @IBOutlet weak var cardTabbarItemView: CustomTabbarView!
+    @IBOutlet weak var wineStoresTabbarItemView: CustomTabbarView!
+    @IBOutlet weak var reorderTabbarItemView: CustomTabbarView!
     
     // MARK: - LIFECYCLE METHODS
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        resetIndicatorColors()
-        setIndicatorColor(tagValue: 1)
-    }
-    
-    // MARK: - IBACTIONS
-    @IBAction func tabbarTapAction(_ sender: UIButton) {
-        setIndicatorColor(tagValue: sender.tag)
-    }
-    
-    func resetIndicatorColors() {
-        [
-            swiggyIndicatorView,
-            foodIndicatorView,
-            instamartIndicatorView,
-            dineoutIndicatorView,
-            cardIndicatorView,
-            wineStoresIndicatorView,
-            reorderIndicatorView
-        ].forEach { indicator in
-            indicator.backgroundColor = .clear
-        }
-    }
-    
-    func setIndicatorColor(tagValue: Int) {
-        resetIndicatorColors()
-        
-        switch tagValue {
-        case 1:
-            swiggyIndicatorView.backgroundColor = .systemOrange
-        case 2:
-            foodIndicatorView.backgroundColor = .systemOrange
-        case 3:
-            instamartIndicatorView.backgroundColor = .systemOrange
-        case 4:
-            dineoutIndicatorView.backgroundColor = .systemOrange
-        case 5:
-            cardIndicatorView.backgroundColor = .systemOrange
-        case 6:
-            wineStoresIndicatorView.backgroundColor = .systemOrange
-        case 7:
-            reorderIndicatorView.backgroundColor = .systemOrange
-        default:
-            break
-        }
+        self.swiggyTabbarItemView.configureView(title: "Swiggy")
+        self.foodTabbarItemView.configureView(title: "Food")
+        self.instamartTabbarItemView.configureView(title: "Instamart")
+        self.dineoutTabbarItemView.configureView(title: "Dineout")
+        self.cardTabbarItemView.configureView(title: "Card")
+        self.wineStoresTabbarItemView.configureView(title: "Wine Stores")
+        self.reorderTabbarItemView.configureView(title: "Reorder")
     }
 }
