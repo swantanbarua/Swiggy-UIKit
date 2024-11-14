@@ -10,7 +10,14 @@ import UIKit
 extension CustomTabbarItemView {
     
     internal func configureView() {
+        guard let view = self.loadViewFromNIB(
+            nibName: String(describing: type(of: self))
+        ) else {
+            return
+        }
         
+        view.frame = self.bounds
+        self.addSubview(view)
     }
     
     func configureView(title: String) {
