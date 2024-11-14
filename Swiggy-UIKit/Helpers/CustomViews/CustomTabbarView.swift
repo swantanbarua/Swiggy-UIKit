@@ -22,6 +22,7 @@ final class CustomTabbarView: UIView {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
+        configureView()
     }
     
     // MARK: - IBACTIONS
