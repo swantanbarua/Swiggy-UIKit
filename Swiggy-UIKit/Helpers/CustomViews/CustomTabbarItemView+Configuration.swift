@@ -14,6 +14,6 @@ extension CustomTabbarItemView {
     }
     
     func configureView(title: String) {
-        
+        self.tabItemLbl.text = title
     }
 }

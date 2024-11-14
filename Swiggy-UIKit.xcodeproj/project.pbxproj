@@ -49,6 +49,7 @@
 				Helpers/CustomViews/CustomTabbarItemView.swift,
 				Helpers/CustomViews/CustomTabbarItemView.xib,
 				"Helpers/CustomViews/CustomTabbarItemView+Configuration.swift",
+				Helpers/Extensions/UIViewExtension.swift,
 			);
 			target = 5EABD7FC2CD8B4DF0080B8D1 /* Swiggy-UIKitTests */;
 		};
@@ -64,6 +65,7 @@
 				Helpers/CustomViews/CustomTabbarItemView.swift,
 				Helpers/CustomViews/CustomTabbarItemView.xib,
 				"Helpers/CustomViews/CustomTabbarItemView+Configuration.swift",
+				Helpers/Extensions/UIViewExtension.swift,
 			);
 			target = 5EABD8062CD8B4DF0080B8D1 /* Swiggy-UIKitUITests */;
 		};
